@@ -1,0 +1,82 @@
+.NavBar_container {
+  width: 100vw;
+  display: flex;
+  padding: 10px 0;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  height: 15vh;
+}
+
+.NavBar_container .icon {
+  display: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.NavBar_container .logo img {
+  display: block;
+  width: 90px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+.NavBar_container ul {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+}
+.NavBar_container ul li {
+  list-style: none;
+  padding-left: 40px;
+}
+.NavBar_container ul li:first-child {
+  padding-left: 0px;
+}
+.NavBar_container ul li .nav_links {
+  text-decoration: none;
+  font-size: 1.07rem;
+  color: #444;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.NavBar_container ul li .nav_links:hover {
+  color: rgb(161, 159, 159);
+}
+
+@media screen and (max-width: 850px) {
+  .NavBar_container ul {
+    flex-direction: column;
+    top: -450%;
+    z-index: 1;
+    background-color: #43505c;
+    position: absolute;
+    padding: 20px 50px;
+    width: 100%;
+    right: 0%;
+    text-align: left;
+  }
+
+  .NavBar_container ul li {
+    padding-top: 30px;
+    text-align: right;
+    width: 100%;
+  }
+  .NavBar_container ul li .nav_links {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  .NavBar_container ul li .nav_links:hover {
+    color: rgb(206, 206, 206);
+  }
+
+  .NavBar_container .icon {
+    display: block;
+  }
+}

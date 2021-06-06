@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+.minifooter_container {
+  width: 100vw;
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;
+  color: rgb(161, 159, 159);
+  padding: 1% 0;
+}
+.minifooter_container .copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 10px 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.minifooter_container .navs {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.minifooter_container .navs .navbar {
+  text-decoration: none;
+  padding: 0 15px;
+  color: rgb(236, 234, 234);
+  font-size: 1.3rem;
+}
+.minifooter_container .navs .navbar:hover {
+  color: rgb(190, 190, 190);
+}
+
+@media screen and (max-width: 850px) {
+  .minifooter_container .copyright {
+    font-size: 0.6rem;
+    color: rgb(201, 201, 201);
+  }
+  .minifooter_container .navs {
+    padding: 10px 0;
+  }
+  .minifooter_container .navs .navbar {
+    font-size: 0.8rem;
+    padding: 0 6px;
+    color: #fff;
+  }
+}

@@ -1,0 +1,51 @@
+.Brands-container {
+  width: 100vw;
+}
+.Brands-container .haeding {
+  padding: 10px 15%;
+  background: rgba(67, 80, 92, 0.5);
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  color: rgb(223, 222, 222);
+  line-height: 15px;
+}
+
+.Brands-container .haeding h2 {
+  font-size: 1.5rem;
+  padding: 20px 0;
+  letter-spacing: 3px;
+}
+
+.Brands-container .haeding p {
+  padding: 15px 0 50px 0;
+  letter-spacing: 2px;
+}
+
+.Brands-container .haeding hr {
+  width: 100%;
+  height: 0.5px;
+  background: rgb(223, 222, 222);
+}
+
+.Brands-BrandCard-container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3% 0;
+}
+
+@media screen and (max-width: 850px) {
+  .Brands-container .haeding {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .Brands-container .haeding h2 {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .Brands-container .haeding p {
+    font-size: 0.9rem;
+    line-height: 25px;
+    padding: 10px 0 25px 0;
+  }
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@200&display=swap");
+.Services_container {
+  width: 100vw;
+  background: black;
+  padding: 0;
+}
+
+.Services_container .heading {
+  padding: 20px 15%;
+  background: rgba(67, 80, 92, 0.5);
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  color: rgb(223, 222, 222);
+  line-height: 15px;
+}
+.Services_container .heading h2 {
+  font-size: 2rem;
+  padding: 20px 0;
+  letter-spacing: 3px;
+}
+
+.Services_container .heading p {
+  padding: 15px 0 20px 0;
+  letter-spacing: 2px;
+}
+.Services_container .heading hr {
+  width: 100%;
+  height: 0.5px;
+  background: rgb(223, 222, 222);
+}
+
+@media screen and (max-width: 850px) {
+  .Services_container .heading {
+    padding: 15px 6%;
+  }
+  .Services_container .heading h2 {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+}

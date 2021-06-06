@@ -1,0 +1,42 @@
+.TopHeader_container {
+  width: 100vw;
+  display: flex;
+  height: 6vh;
+  background: linear-gradient(
+    45deg,
+    #2b333a 3%,
+    #33393f 51%,
+    #43505c 51%,
+    #70879b 100%
+  );
+  padding-left: 30%;
+  font-family: "Montserrat", sans-serif;
+}
+.TopHeader_container p {
+  padding-left: 4%;
+  display: flex;
+  align-items: center;
+  font-size: 1.02rem;
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 2.5px;
+}
+.TopHeader_container p:first-child {
+  padding-left: 2%;
+  padding-right: 6%;
+}
+
+@media screen and (max-width: 850px) {
+  .TopHeader_container {
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  .TopHeader_container p {
+    font-size: 0.7rem;
+    padding: 5px 0;
+  }
+  .TopHeader_container p:first-child {
+    display: none;
+    padding: 0;
+  }
+}
