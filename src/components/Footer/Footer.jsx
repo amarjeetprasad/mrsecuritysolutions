@@ -1,9 +1,7 @@
 import emailjs from 'emailjs-com';
-import swal from '@sweetalert/with-react'
-// require('../../dotenv').config()
+import swal from 'sweetalert';
 import "./Footer.css";
 
-import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { ImLocation } from "react-icons/im";
 import {FaWhatsappSquare} from "react-icons/fa"
