@@ -39,4 +39,8 @@
     display: none;
     padding: 0;
   }
+  .TopHeader_container p:nth-child(3){
+    font-size: 0.6rem;
+    padding: 5px 0;
+  }
 }
