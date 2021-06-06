@@ -7,7 +7,6 @@ import { ImLocation } from "react-icons/im";
 import {FaWhatsappSquare} from "react-icons/fa"
 
 function Footer() {
-console.log(process.env);
   function sendEmail(e) {
     e.preventDefault();
 
