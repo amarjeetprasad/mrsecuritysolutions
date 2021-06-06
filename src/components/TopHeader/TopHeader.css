@@ -29,7 +29,7 @@
 @media screen and (max-width: 850px) {
   .TopHeader_container {
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 0 2%;
   }
   .TopHeader_container p {
     font-size: 0.4rem;
