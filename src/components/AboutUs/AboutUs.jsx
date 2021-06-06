@@ -16,11 +16,13 @@ function AboutUs() {
           </div>
           <div className="text_container">
             <p>
+              "Our main focus is customer satisfaction"
               Whatever your networking needs, MR SECURITY SOLUTIONS will always
               provide the latest high-quality technologies and services at
               affordable prices. We'll help you Connect to More.
             </p>
             <p>
+             "Our main focus is customer satisfaction"
               We are committed to providing its highest quality solutions and
               products with the latest technologies to enable end users to
               perform their business successfully and protect families.

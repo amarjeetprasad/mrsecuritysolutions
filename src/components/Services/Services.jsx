@@ -2,15 +2,14 @@ import "./Services.css";
 import ServicesCard from "../ServicesCard/ServicesCard";
 import img1 from "../../img/products/toppng.com-hik-camera-hikvision-cctv-camera-693x402.png";
 import img2 from "../../img/products/imgbin_video-door-phone-intercom-door-phone-wireless-system-png.png";
-import img3 from "../../img/products/favpng_alarm-device-mobile-phones-security-alarms-systems-gsm-anti-theft-system.png";
 import img4 from "../../img/products/Daco_6043768.png";
 import img5 from "../../img/products/imgbin_security-alarms-amp-systems-alarm-device-home-security-security-company-png.png";
 import img6 from "../../img/products/pngegg (1).png";
 import img8 from "../../img/products/pngaaa.com-3020313.png";
-import img10 from "../../img/products/kisspng-vacuum-cleaner-electrolux-aeg-5ae5e060a3c0c7.4729987315250146246707.png"
+import img10 from "../../img/products/IMG-20210606-WA0010_1_-removebg-preview.png"
 import img9 from "../../img/products/nrich_right_1.png"
 import img11 from "../../img/products/perspective.png"
-import img12 from "../../img/products/pngwing.com.png"
+import img12 from "../../img/products/IMG-20210606-WA0011_1_-removebg-preview.png"
 
 //
 function Services() {
@@ -44,7 +43,6 @@ function Services() {
     "Alarm systems are primarily designed to warn occupants of a fire so they can safely evacuate the premises."
   ];
 
-  const lst6 = ["Prevent Theft", "Stopping Theft"];
 
   const lst7 = ["Privacy", "Keeps Unauthorized Vehicles Out", "Safety"];
 
@@ -97,7 +95,7 @@ function Services() {
           />
           <ServicesCard
             dir="left"
-            title="Security Alarm System"
+            title="Anti Theft Alarm System"
             img={img5}
             text={lst2}
           />
@@ -106,18 +104,6 @@ function Services() {
             title="Fire Alarm Aystem "
             img={img6}
             text={lst5}
-          />
-          <ServicesCard
-            dir="left"
-            title="Anti Theft Alarm "
-            img={img3}
-            text={lst6}
-          />
-          <ServicesCard
-            dir="right"
-            title="Remote Gate Automation"
-            img={img8}
-            text={lst7}
           />
           <ServicesCard
             dir="left"
@@ -142,6 +128,12 @@ function Services() {
             title="Air Purifier"
             img={img12}
             text={lst11}
+          />
+           <ServicesCard
+            dir="left"
+            title="Remote Gate Automation"
+            img={img8}
+            text={lst7}
           />
         </div>
       </div>
