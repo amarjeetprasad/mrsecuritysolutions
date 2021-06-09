@@ -1,5 +1,5 @@
 import "./MiniFooter.css";
-import { NavLink } from "react-router-dom";
+import { a } from "react-router-dom";
 
 function MiniFooter() {
   let date = new Date();
@@ -10,21 +10,21 @@ function MiniFooter() {
         &#169; {year} MR Security Solutions All rights reserved
       </p>
       <p className="navs">
-        <NavLink className="navbar" to="/">
+        <a className="navbar" href="/">
           Home
-        </NavLink>
-        <NavLink className="navbar" to="/about">
+        </a>
+        <a className="navbar" href="/about">
           About Us
-        </NavLink>
-        <NavLink className="navbar" to="/services">
+        </a>
+        <a className="navbar" href="/services">
           Services
-        </NavLink>
-        <NavLink className="navbar" to="/brands">
+        </a>
+        <a className="navbar" href="/brands">
           Brands
-        </NavLink>
-        <NavLink className="navbar" to="/contact">
+        </a>
+        <a className="navbar" href="/contact">
           Contact Us
-        </NavLink>
+        </a>
       </p>
     </div>
   );
