@@ -24,7 +24,7 @@ function ContactUs() {
           products which are more reliable and guarantee assured.
         </p>
         <div className="add">
-          <ImLocation class="icon" />
+          <ImLocation className="icon" />
           <p>
             6 / 311 , Sara Complex , Nr. Axis Bank & Marina Residency Hotel ,
             YMCA Cross Road Calicut - 673001

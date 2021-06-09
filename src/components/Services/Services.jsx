@@ -13,44 +13,8 @@ import img12 from "../../img/products/IMG-20210606-WA0011_1_-removebg-preview.pn
 
 //
 function Services() {
-  const lst1 = [
-    "Get rid of paper based monitoring.",
-    "Save time.",
-    "Save money.",
-    "Better security.",
-    "Most accurate traking solution."
-  ];
-  const lst2 = [
-    "Security alarm systems deter criminal activity.",
-    "Security alarm systems protect property and valuables.",
-    "Security alarm systems help protect your home from intruders."
-  ];
-
-  const lst3 = [
-    "Prevent and Reduce Chances of Theft.",
-    "Real-time Video Surveillance.",
-    "Monitor High-risk Areas.",
-    "Resolve Internal Business Disputes."
-  ];
-
-  const lst4 = [
-    "Communicate with your visitor.",
-    "Records even if you are not at home.",
-    "Easy installation."
-  ];
-
-  const lst5 = [
-    "Alarm systems are primarily designed to warn occupants of a fire so they can safely evacuate the premises."
-  ];
-
-
   const lst7 = ["Privacy", "Keeps Unauthorized Vehicles Out", "Safety"];
 
-
-  const lst8 = [
-    "Separating salts and heavy metals",
-    "these purifiers improve the taste of the water as well",
-  ];
 
   const lst9 = [
     "Capture Excess Pet Hair",
@@ -75,42 +39,6 @@ function Services() {
       </div>
       <div className="services_body">
         <div className="services_cards">
-          <ServicesCard
-            dir="right"
-            title="Full HD CCTV Cameras"
-            img={img1}
-            text={lst3}
-          />
-          <ServicesCard
-            dir="left"
-            title="Video Door Phone"
-            img={img2}
-            text={lst4}
-          />
-          <ServicesCard
-            dir="right"
-            title="Biometric Attendance System"
-            img={img4}
-            text={lst1}
-          />
-          <ServicesCard
-            dir="left"
-            title="Anti Theft Alarm System"
-            img={img5}
-            text={lst2}
-          />
-          <ServicesCard
-            dir="right"
-            title="Fire Alarm Aystem "
-            img={img6}
-            text={lst5}
-          />
-          <ServicesCard
-            dir="left"
-            title="Aquaguard"
-            img={img9}
-            text={lst8}
-          />
           <ServicesCard
             dir="right"
             title="Vaccum Cleaner"

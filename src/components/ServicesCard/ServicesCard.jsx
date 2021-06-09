@@ -7,13 +7,13 @@ function ServicesCard({ dir, img, title, text }) {
   };
 
   return dir === "right" ? (
-    <StyleRoot>
+    <StyleRoot >
       <div className="ServicesCard_container" style={sty}>
         <div className="about">
           <h3>{title}</h3>
           <ul>
-            {text.map((txt) => (
-              <li>{txt}</li>
+            {text.map((txt,i) => (
+              <li key={i}>{txt}</li>
             ))}
           </ul>
         </div>
@@ -21,14 +21,14 @@ function ServicesCard({ dir, img, title, text }) {
       </div>
     </StyleRoot>
   ) : (
-    <StyleRoot>
+    <StyleRoot >
       <div className="ServicesCard_container">
         <img src={img} alt="" />
         <div className="about">
           <h3>{title}</h3>
           <ul>
-            {text.map((txt) => (
-              <li>{txt}</li>
+            {text.map((txt,i) => (
+              <li key={i}>{txt}</li>
             ))}
           </ul>
         </div>

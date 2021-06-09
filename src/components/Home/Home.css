@@ -115,14 +115,22 @@
   color: #fff;
 }
 .services_container .services_body .services_card .services_card_texts {
-  max-width: 400px;
+  max-width: 200px;
   padding-top: 30px;
 }
 .services_container .services_body .services_card .services_card_texts h3 {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight:bold;
   color: #737475;
 }
+.services_container .services_body .services_card .services_card_texts ul {
+  padding-left: 10px;
+}
+.services_container .services_body .services_card .services_card_texts ul li{
+  font-size:0.8rem;
+}
+
 .services_container .services_body .services_card .services_card_texts p {
   color: #ababac;
 }
@@ -360,15 +368,17 @@
   .services_container .services_body .services_card{
     margin: 0;
     background-color: transparent;
+    border-bottom: 0.5px solid #555;
+    width:100vw;
+    padding:13% 0;
   }
 
   .services_container .services_body .services_card .icon_cont {
-    width: 28vw;
-    height: 15vh;
     background-color: transparent;
+    height: 12vh;
   }
   .services_container .services_body .services_card .icon_cont img {
-    width: 25vw;
+    width: 45vw;
   }
  
   .services_container .services_body .services_card .icon {
@@ -376,7 +386,7 @@
     color: #222;
   }
   .services_container .services_body .services_card .services_card_texts h3 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin: 0;
   }
   .services_container .services_body .services_card .services_card_texts p {

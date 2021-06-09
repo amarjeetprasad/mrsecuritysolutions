@@ -73,6 +73,16 @@ function Home() {
             </div>
             <div className="services_card_texts">
               <h3>CCTV camera</h3>
+              <ul>
+                {
+                  [
+                    "Prevent and Reduce Chances of Theft.",
+                    "Real-time Video Surveillance.",
+                    "Monitor High-risk Areas.",
+                    "Resolve Internal Business Disputes."
+                  ].map((lst,i)=><li key={i}>{lst}</li>)
+                }
+              </ul>
             </div>
           </div>
 
@@ -82,6 +92,15 @@ function Home() {
             </div>
             <div className="services_card_texts">
               <h3>Anti theft alarm</h3>
+              <ul>
+                {
+                  [
+                    "Security alarm systems deter criminal activity.",
+                    "Security alarm systems protect property and valuables.",
+                    "Security alarm systems help protect your home from intruders."
+                  ].map((lst,i)=><li key={i}>{lst}</li>)
+                }
+              </ul>
             </div>
           </div>
 
@@ -91,6 +110,15 @@ function Home() {
             </div>
             <div className="services_card_texts">
               <h3>Video door phone</h3>
+              <ul>
+                {
+                  [
+                    "Communicate with your visitor.",
+                    "Records even if you are not at home.",
+                    "Easy installation."
+                  ].map((lst,i)=><li key={i}>{lst}</li>)
+                }
+              </ul>
             </div>
           </div>
 
@@ -100,6 +128,17 @@ function Home() {
             </div>
             <div className="services_card_texts">
               <h3>Biometric Attendance</h3>
+              <ul>
+                {
+                  [
+                    "Get rid of paper based monitoring.",
+                    "Save time.",
+                    "Save money.",
+                    "Better security.",
+                    "Most accurate traking solution."
+                  ].map((lst,i)=><li key={i}>{lst}</li>)
+                }
+              </ul>
             </div>
           </div>
 
@@ -109,6 +148,11 @@ function Home() {
             </div>
             <div className="services_card_texts">
               <h3>Home Automation</h3>
+              <ul>
+                {
+                  ["Privacy", "Safety" , "Smart Home"].map((lst,i)=><li key={i}>{lst}</li>)
+                }
+              </ul>
             </div>
           </div>
 
@@ -118,6 +162,13 @@ function Home() {
             </div>
             <div className="services_card_texts">
               <h3>Fire alarm system</h3>
+              <ul>
+                {
+                  [
+                    "Alarm systems are primarily designed to warn occupants of a fire so they can safely evacuate the premises."
+                  ].map((lst,i)=><li key={i}>{lst}</li>)
+                }
+              </ul>
             </div>
           </div>
 
@@ -127,6 +178,14 @@ function Home() {
             </div>
             <div className="services_card_texts">
               <h3>Aquaguard</h3>
+              <ul>
+                {
+                  [
+                    "Separating salts and heavy metals",
+                    "these purifiers improve the taste of the water as well",
+                  ].map((lst,i)=><li key={i}>{lst}</li>)
+                }
+              </ul>
             </div>
           </div>
 
