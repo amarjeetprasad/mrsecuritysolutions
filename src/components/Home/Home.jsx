@@ -1,19 +1,12 @@
 import {useState} from "react"
-import { NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom"
 import {FaTimes} from "react-icons/fa"
 import "./Home.css";
-import { BiCctv } from "react-icons/bi";
-import { BsAlarm } from "react-icons/bs";
-import { MdPhonelink } from "react-icons/md";
-import { RiComputerLine } from "react-icons/ri";
-import { GiFireplace } from "react-icons/gi";
-import { SiHomeassistant } from "react-icons/si";
-import {IoIosWater} from "react-icons/io";
-import {GiVacuumCleaner} from "react-icons/gi"
-import {RiVirusFill} from "react-icons/ri"
-import {RiRemoteControlFill} from "react-icons/ri"
+import {BiPlusMedical} from "react-icons/bi"
+
 import img1 from "../../img/view_package.png";
 import img2 from "../../img/cctv-photo.jpg";
+
 import brand1 from "../../img/brands/LOGO.e093234.png";
 import brand2 from "../../img/brands/b6e737b893788014218db74932698b5e.w1440.h720.png";
 import brand3 from "../../img/brands/brand5.png";
@@ -27,9 +20,6 @@ import popimg4 from "../../img/products/Daco_6043768.png"
 import popimg5 from "../../img/products/imgbin_security-alarms-amp-systems-alarm-device-home-security-security-company-png.png"
 import popimg6 from "../../img/products/pngegg (1).png"
 import popimg7 from "../../img/products/nrich_right_1.png"
-import popimg8 from "../../img/products/kisspng-vacuum-cleaner-electrolux-aeg-5ae5e060a3c0c7.4729987315250146246707.png"
-import popimg9 from "../../img/products/perspective.png"
-import popimg10 from "../../img/products/pngwing.com.png"
 
 
 function Home() {
@@ -76,18 +66,19 @@ function Home() {
           <span>---</span>Services<span>---</span>
         </h3>
         <div className="services_body" >
+
           <div className="services_card">
-            <div className="icon_cont" onClick={()=>{OnClickHandler(popimg1,"CCTV camera surveillance system");PopUpDown()}}>
-              <BiCctv className="icon" />
+            <div className="icon_cont">
+              <img src={popimg1} alt={popimg1} />
             </div>
             <div className="services_card_texts">
-              <h3>CCTV camera surveillance system</h3>
+              <h3>CCTV camera</h3>
             </div>
           </div>
 
           <div className="services_card" >
             <div className="icon_cont" >
-              <BsAlarm className="icon" onClick={()=>{OnClickHandler(popimg2,"Anti theft alarm");PopUpDown()}}/>
+              <img src={popimg2} alt={popimg2} />
             </div>
             <div className="services_card_texts">
               <h3>Anti theft alarm</h3>
@@ -96,7 +87,7 @@ function Home() {
 
           <div className="services_card">
             <div className="icon_cont">
-              <MdPhonelink className="icon" onClick={()=>{OnClickHandler(popimg3,"Video door phone");PopUpDown()}}/>
+             <img src={popimg3} alt={popimg3} />
             </div>
             <div className="services_card_texts">
               <h3>Video door phone</h3>
@@ -105,16 +96,16 @@ function Home() {
 
           <div className="services_card">
             <div className="icon_cont">
-              <RiComputerLine className="icon" onClick={()=>{OnClickHandler(popimg4,"Biometric Attendance system");PopUpDown()}}/>
+              <img src={popimg4} alt={popimg4} />
             </div>
             <div className="services_card_texts">
-              <h3>Biometric Attendance system</h3>
+              <h3>Biometric Attendance</h3>
             </div>
           </div>
 
           <div className="services_card">
             <div className="icon_cont">
-              <SiHomeassistant className="icon" onClick={()=>{OnClickHandler(popimg5,"Home Automation");PopUpDown()}}/>
+            <img src={popimg5} alt={popimg5} />
             </div>
             <div className="services_card_texts">
               <h3>Home Automation</h3>
@@ -123,7 +114,7 @@ function Home() {
 
           <div className="services_card">
             <div className="icon_cont">
-              <GiFireplace className="icon" onClick={()=>{OnClickHandler(popimg6,"Video door phone");PopUpDown()}}/>
+            <img src={popimg6} alt={popimg6} />
             </div>
             <div className="services_card_texts">
               <h3>Fire alarm system</h3>
@@ -132,7 +123,7 @@ function Home() {
 
           <div className="services_card">
             <div className="icon_cont">
-              <IoIosWater className="icon" onClick={()=>{OnClickHandler(popimg7,"Aquaguard");PopUpDown()}}/>
+            <img src={popimg7} alt={popimg7} />
             </div>
             <div className="services_card_texts">
               <h3>Aquaguard</h3>
@@ -141,30 +132,13 @@ function Home() {
 
           <div className="services_card">
             <div className="icon_cont">
-              <GiVacuumCleaner className="icon" onClick={()=>{OnClickHandler(popimg8,"Vaccum Cleaner");PopUpDown()}}/>
+            <NavLink to="/services"><BiPlusMedical className="icon"/></NavLink>
             </div>
             <div className="services_card_texts">
-              <h3>Vaccum Cleaner</h3>
+              <h3>Other Products</h3>
             </div>
           </div>
 
-          <div className="services_card">
-            <div className="icon_cont">
-              <RiVirusFill className="icon" onClick={()=>{OnClickHandler(popimg9,"Corona Guard");PopUpDown()}}/>
-            </div>
-            <div className="services_card_texts">
-              <h3>Corona Guard</h3>
-            </div>
-          </div>
-
-          <div className="services_card">
-            <div className="icon_cont">
-              <RiRemoteControlFill className="icon" onClick={()=>{OnClickHandler(popimg10,"Air Purifier");PopUpDown()}}/>
-            </div>
-            <div className="services_card_texts">
-              <h3>Air Purifier</h3>
-            </div>
-          </div>
         </div>
       </div>
 

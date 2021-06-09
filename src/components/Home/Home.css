@@ -91,11 +91,11 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  width: 10vw;
+  /* width: 10vw; */
 }
 .services_container .services_body .services_card .icon_cont {
-  width: 90px;
-  height: 90px;
+  width: 200px;
+  height:200px;
   padding: 20px;
   margin: 0 auto;
   background: #43505c;
@@ -104,19 +104,24 @@
   justify-content: center;
   align-items: center;
 }
+
+.services_container .services_body .services_card .icon_cont img{
+  width: 150px;
+}
+
 .services_container .services_body .services_card .icon {
-  font-size: 4rem;
+  font-size: 7rem;
   cursor: pointer;
+  color: #fff;
 }
 .services_container .services_body .services_card .services_card_texts {
   max-width: 400px;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 .services_container .services_body .services_card .services_card_texts h3 {
   text-align: center;
   font-size: 0.8rem;
   color: #737475;
-  margin: 10px 0;
 }
 .services_container .services_body .services_card .services_card_texts p {
   color: #ababac;
@@ -351,22 +356,28 @@
     padding: 0;
     padding-bottom: 10px;
   }
-  .services_container .services_body .services_card {
-    width: 90vw;
+
+  .services_container .services_body .services_card{
     margin: 0;
-    border: 1px solid rgb(235, 233, 233);
+    background-color: transparent;
   }
+
   .services_container .services_body .services_card .icon_cont {
-    width: 80px;
-    height: 80px;
+    width: 28vw;
+    height: 15vh;
+    background-color: transparent;
   }
+  .services_container .services_body .services_card .icon_cont img {
+    width: 25vw;
+  }
+ 
   .services_container .services_body .services_card .icon {
-    font-size: 3rem;
+    font-size: 5rem;
+    color: #222;
   }
   .services_container .services_body .services_card .services_card_texts h3 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0;
-    padding-bottom: 5px;
   }
   .services_container .services_body .services_card .services_card_texts p {
     font-size: 0.9rem;
