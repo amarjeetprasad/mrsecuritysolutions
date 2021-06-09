@@ -40,7 +40,7 @@ function Footer() {
         </div>
         <div className="list">
           <MdEmail className="icon" style={{color:"#fce8e6"}}/>
-          <p>mrsolutions@gmail.com</p>
+          <p>mrsolutionsclt@gmail.com</p>
         </div>
         <div className="list">
           <ImLocation className="icon" />
