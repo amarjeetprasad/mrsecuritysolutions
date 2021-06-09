@@ -7,7 +7,10 @@ import img12 from "../../img/products/IMG-20210606-WA0011_1_-removebg-preview.pn
 
 //
 function Services() {
-  const lst7 = ["Privacy", "Keeps Unauthorized Vehicles Out", "Safety"];
+  const lst7 = [
+    "Separating salts and heavy metals",
+    "these purifiers improve the taste of the water as well",
+  ];
 
 
   const lst9 = [
@@ -53,7 +56,7 @@ function Services() {
           />
            <ServicesCard
             dir="left"
-            title="Remote Gate Automation"
+            title="Aquaguard"
             img={img8}
             text={lst7}
           />

@@ -177,13 +177,10 @@ function Home() {
             <img src={popimg7} alt={popimg7} />
             </div>
             <div className="services_card_texts">
-              <h3>Aquaguard</h3>
+              <h3>Remote Gate Automation</h3>
               <ul>
                 {
-                  [
-                    "Separating salts and heavy metals",
-                    "these purifiers improve the taste of the water as well",
-                  ].map((lst,i)=><li key={i}>{lst}</li>)
+                  ["Privacy", "Keeps Unauthorized Vehicles Out", "Safety"].map((lst,i)=><li key={i}>{lst}</li>)
                 }
               </ul>
             </div>
