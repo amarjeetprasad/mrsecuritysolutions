@@ -1,13 +1,7 @@
 import "./Services.css";
 import ServicesCard from "../ServicesCard/ServicesCard";
-import img1 from "../../img/products/toppng.com-hik-camera-hikvision-cctv-camera-693x402.png";
-import img2 from "../../img/products/imgbin_video-door-phone-intercom-door-phone-wireless-system-png.png";
-import img4 from "../../img/products/Daco_6043768.png";
-import img5 from "../../img/products/imgbin_security-alarms-amp-systems-alarm-device-home-security-security-company-png.png";
-import img6 from "../../img/products/pngegg (1).png";
-import img8 from "../../img/products/pngaaa.com-3020313.png";
+import img8 from "../../img/products/nrich_right_1.png"
 import img10 from "../../img/products/IMG-20210606-WA0010_1_-removebg-preview.png"
-import img9 from "../../img/products/nrich_right_1.png"
 import img11 from "../../img/products/perspective.png"
 import img12 from "../../img/products/IMG-20210606-WA0011_1_-removebg-preview.png"
 

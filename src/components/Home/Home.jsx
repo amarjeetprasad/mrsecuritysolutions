@@ -19,7 +19,7 @@ import popimg3 from "../../img/products/imgbin_video-door-phone-intercom-door-ph
 import popimg4 from "../../img/products/Daco_6043768.png"
 import popimg5 from "../../img/products/imgbin_security-alarms-amp-systems-alarm-device-home-security-security-company-png.png"
 import popimg6 from "../../img/products/pngegg (1).png"
-import popimg7 from "../../img/products/nrich_right_1.png"
+import popimg7 from "../../img/products/pngaaa.com-3020313.png";
 
 
 function Home() {
