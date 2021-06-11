@@ -135,7 +135,7 @@ function Home() {
                     "Save time.",
                     "Save money.",
                     "Better security.",
-                    "Most accurate traking solution."
+                    "Most accurate tracking solution."
                   ].map((lst,i)=><li key={i}>{lst}</li>)
                 }
               </ul>
