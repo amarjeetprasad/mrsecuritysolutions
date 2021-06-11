@@ -19,7 +19,7 @@ function ContactUs() {
           own country. As per the name of the company indicates, we are focusing
           on research and updates of modern technologies in advance. In this
           wing the company deal with no.1 global vendors of security systems.
-          Hikvision, Hifocas, Bosch, Honeywell, Unicam, CP+ etc are the leading
+          Eureka Forbes, Hikvision, Hifocas, Bosch, Honeywell, Unicam, CP+ etc are the leading
           manufacturing companies in the field and, this company is using their
           products which are more reliable and guarantee assured.
         </p>
